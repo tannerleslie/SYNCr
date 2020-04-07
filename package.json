@@ -1,0 +1,27 @@
+{
+  "name": "syncr",
+  "version": "1.0.0",
+  "description": "syncronize browsers",
+  "main": "background.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-static": "^0.7.11",
+    "socket.io": "^2.3.0",
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannerleslie/SYNCr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tannerleslie/SYNCr/issues"
+  },
+  "homepage": "https://github.com/tannerleslie/SYNCr#readme"
+}
